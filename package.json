@@ -1,18 +1,25 @@
 {
-  "name": "casadocodigo",
+  "name": "chatsenai",
   "version": "1.0.0",
-  "description": "site da casa do codigo",
-  "main": "index.js",
+  "description": "Chat de zoeira",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "alberto",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielSBorges/chatSenai.git"
+  },
+  "author": "Gabriel da Silva Borges",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabrielSBorges/chatSenai/issues"
+  },
+  "homepage": "https://github.com/gabrielSBorges/chatSenai#readme",
   "dependencies": {
-    "ejs": "^2.5.6",
-    "express": "^4.15.2",
-    "express-load": "^1.1.15",
-    "mysql": "^2.13.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
     "socket.io": "^2.2.0"
   }
 }
