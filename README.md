@@ -2,7 +2,7 @@
 Estudo sobre "real time chat" em Nodejs  
 São utilizadas as bibliotecas "ejs", "express" e "socket.io".
 
-> Diretórios:
+> **Diretórios:**
 >> **app:** Guarda as pastas e arquivos essenciais para o sistema.  
 >>> **public:** Guarda as pastas e arquivos "estáticos" do sistema, necessários para carregar o visual do mesmo."  
 >>> **routes:** Guarda os arquivos das rotas do sistema, arquivos responsáveis por fazer o direcionamento das páginas.  
