@@ -26,6 +26,8 @@ io.on('connection', socket => {
     });
 });
 
-server.listen(3000, () => {
+const porta = process.env.PORT || 3000;
+
+server.listen(porta, () => {
     console.log("server rodando");
 });
