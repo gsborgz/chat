@@ -1,5 +1,5 @@
 # chatSenai
-Estudo sobre "real time chat" em Nodejs  
+Estudo sobre "real time chat" em Nodejs, baseado no vídeo de Rocketseat.
 São utilizadas as bibliotecas "ejs", "express" e "socket.io".
 
 > **Diretórios:**

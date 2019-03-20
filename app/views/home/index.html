@@ -10,19 +10,13 @@
     <body>
         <form id="chat">
             <input type="text" id="nome" name="nome" value="" placeholder="Digite seu nome/apelido">
-            <div class="mensagens"></div>
+            <div class="messages"></div>
             <input type="text" id="msg" name="msg" value="" placeholder="Digite uma mensagem...">
             <input type="submit" name="enviar" value="ENVIAR" onclick="enviaMensagem()">
         </form>
 
-        <script>
-            function enviaMensagem(){
-                const msg = document.getElementById('msg');
-                const caixaMsg = document.getElementById('caixaMsg');
-
-                caixaMsg.value += msg.value + "\n";
-                msg.value = "";
-            }
+        <script type="text/javascript">
+            var socket = io('http://localhost:3000');
         </script>
     </body>
 </html>
