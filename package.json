@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "description": "Chat de zoeira",
   "main": "server.js",
-  "engines":{
+  "engines": {
     "node": "10.15.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server"
+    "prestart": "npm install",
+    "start": "node app"
   },
   "repository": {
     "type": "git",
